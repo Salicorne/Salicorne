@@ -1,5 +1,9 @@
 # vim:ft=zsh ts=2 sw=2 sts=2
 #
+# KUBENOSTER - personal revisited Agnoster theme with a custom Kubernetes prompt segment.
+#
+#
+#
 # agnoster's Theme - https://gist.github.com/3712874
 # A Powerline-inspired theme for ZSH
 #
@@ -238,7 +242,22 @@ prompt_aws() {
 
 prompt_kubernetes() {
 #  prompt_segment cyan black "`kubectl config current-context`/`kubectl config get-contexts --no-headers | grep '*' | awk '{print $5}'`"
-  prompt_segment cyan black "\u2388 ` grep -r 'cluster: ' ~/.kube/config | awk '{print $2}'`/`grep -r 'namespace: ' ~/.kube/config | awk '{print $2}'`"
+  ctx=$(grep -r 'current-context: ' ~/.kube/config | awk '{print $2}')
+  case $ctx in
+    prod)
+      color="red"
+      ;;
+    minikube)
+      color="cyan"
+      ;;
+    dev-master)
+      color="blue"
+      ;;
+    *)
+      color="magenta"
+      ;;
+  esac
+  prompt_segment $color black "\u2388 $ctx/`kubectl config view --minify --output 'jsonpath={..namespace}'`"
 }
 
 ## Main prompt
