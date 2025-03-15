@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Salicorne</h1>
 
-I am DevOps engineer who gratuated from [INSA Rennes](https://www.insa-rennes.fr/) in 2019. My work involves (among other tasks) writing a lot of backend code, which is great ! But one thing I like to do with computers is to create visual results, which is hard to achieve in backend... So I use this GitHub repo to host personal projects and public stuff, unrelated to my professional work but still worth sharing. Please reach out if you want to chat ! 
+I am DevOps engineer who gratuated from [INSA Rennes](https://www.insa-rennes.fr/) in 2019. My work involves (among other tasks) writing a lot of backend code, which is great ! But one thing I like to do with computers is to create visual results, which is hard to achieve in backend... So I use this GitHub repo to host personal projects and public stuff, unrelated to my professional work but still worth sharing. You can see some (few) demos live at [salicorne.github.io](https://salicorne.github.io/). Please reach out if you want to chat ! 
 
 ## My current tech stack:
 
