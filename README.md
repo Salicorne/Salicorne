@@ -20,6 +20,6 @@ I am DevOps engineer who gratuated from [INSA Rennes](https://www.insa-rennes.fr
 
  * <img src="https://raw.githubusercontent.com/prometheus/prometheus/main/documentation/images/prometheus-logo.svg" alt="Prometheus" width="40" height="40"/> Prometheus
  * <img src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" alt="grafana" width="40" height="40"/>  Grafana
- * <img src="https://raw.githubusercontent.com/cncf/artwork/main/other/cncf-member/graduated/color/cncf-graduated-color.svg" alt="jaeger" width="40" height="40"/> Jaeger
+ * <img src="https://www.jaegertracing.io/img/jaeger-vector.svg" alt="jaeger" width="40" height="40"/> Jaeger
 
 Other ops tasks I get to do with my current position include network troubleshooting, Linux bare-metal and virtualized servers administration, API and systems design, tests, roadmap management and more... 
